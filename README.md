@@ -3,7 +3,15 @@
 
 
 To install the dependencies, type `npm install` then launch the app with `npm start`. The app will be available on http://localhost:3000/
-
+<div>
+<img src="https://github.com/fabrice126/BeerMarket/blob/master/github/img/beer_market_list.png?raw=true" width="300"/>
+</div>
+<div>
+<img src="https://github.com/fabrice126/BeerMarket/blob/master/github/img/beer_market_search.png?raw=true" width="300"/>
+</div>
+<div>
+<img src="https://github.com/fabrice126/BeerMarket/blob/master/github/img/beer_market_detail.png?raw=true" width="300"/>
+</div>
 
 ### Naming convention
 
