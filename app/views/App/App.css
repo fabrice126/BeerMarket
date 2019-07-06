@@ -1,0 +1,21 @@
+:root {
+    --height-header: calc(70px + 1vw);
+    --background-color-header: #efd4b2;
+    --transition-ms-menu-header: 300ms;
+    --transition-ms-menu-icon-header: 600ms;
+}
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.App {
+    background-color: '#E5E5E5';
+    min-height: '100vh';
+    padding-top: '100px';
+}
+.Container {
+    margin-top: var(--height-header);
+}

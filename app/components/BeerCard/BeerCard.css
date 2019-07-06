@@ -1,0 +1,42 @@
+.BeerCard {
+    margin: 20px;
+    transition: all ease-out 200ms;
+}
+.BeerCard:hover {
+    box-shadow: 1px 1px 12px 0px rgba(69, 69, 69, 0.25);
+    transform: scale(1.03);
+    transition: all ease-in 200ms;
+}
+
+.BeerCard .description {
+    height: 175px;
+    overflow: hidden;
+    text-align: justify;
+}
+.BeerCard .header {
+    text-align: center;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+}
+
+.BeerCard__img.image {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 210px !important;
+}
+.BeerCard__img.image > img {
+    width: 48px !important;
+    padding: 10px 0px !important;
+}
+
+.BeerCard__link {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}

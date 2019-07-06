@@ -1,0 +1,18 @@
+.SearchBar {
+}
+.SearchBar_link {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.ui.icon.input {
+    width: 250px !important;
+}
+@media screen and (max-width: 768px) {
+    .ui.icon.input {
+        width: 45vw !important;
+    }
+    .ui.search .results {
+        width: 60vw !important;
+    }
+}

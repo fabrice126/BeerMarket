@@ -1,0 +1,16 @@
+extends:
+  - osedea/react
+  - osedea/prettier
+
+globals:
+  __PROD__: false
+  __DEV__: false
+
+settings:
+  react:
+    version: "16.7.0"
+
+rules:
+  react/jsx-curly-brace-presence: off
+  react/prefer-stateless-function: off
+  jsx-a11y/label-has-for: off

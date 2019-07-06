@@ -1,0 +1,13 @@
+.Logo {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.Logo__link {
+  text-decoration: none;
+}
+.Logo__img{
+  width: 7vw;
+  min-width: 50px;
+}

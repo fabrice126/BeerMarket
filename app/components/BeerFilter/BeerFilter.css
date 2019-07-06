@@ -1,0 +1,9 @@
+.BeerFilter{
+    padding: 0px 20px;
+}
+.BeerFilter__label {
+    margin-bottom: 10px;
+}
+.BeerFilter___btn {
+    margin-top: 20px !important;
+}
