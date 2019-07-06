@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 import './DetailPage.css';
-import LoadingIcon from 'components/LoadingIcon/LoadingIcon';
-import BeerList from 'components/BeerList/BeerList';
-import srmToRgb from 'lib/srmToRgb';
+import LoadingIcon from '../../components/LoadingIcon/LoadingIcon';
+import BeerList from '../../components/BeerList/BeerList';
+import srmToRgb from '../../lib/srmToRgb';
 class DetailPage extends React.Component {
     constructor(props) {
         super(props);

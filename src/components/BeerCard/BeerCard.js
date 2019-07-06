@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Card, Icon, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import textAbstract from '../../lib/textAbstract';
-import srmToRgb from 'lib/srmToRgb';
+import srmToRgb from '../../lib/srmToRgb';
 import './BeerCard.css';
 class BeerCard extends React.PureComponent {
     static defaultProps = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Logo.css';
-import osedeaWhite from 'assets/osedea-white.svg';
+import osedeaWhite from '../../../assets/osedea-white.svg';
 
 function Logo() {
 	return (

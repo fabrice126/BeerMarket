@@ -1,5 +1,5 @@
 import React from 'react';
-import loadingGif from 'assets/loading.svg';
+import loadingGif from '../../assets/loading.svg';
 import './LoadingIcon.css';
 function LoadingIcon() {
     return (

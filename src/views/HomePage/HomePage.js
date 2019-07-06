@@ -2,12 +2,12 @@ import React from 'react';
 import axios from 'axios';
 import { Accordion, Icon } from 'semantic-ui-react';
 import './HomePage.css';
-import BeerList from 'components/BeerList/BeerList';
-import BeerFilter from 'components/BeerFilter/BeerFilter';
-import LoadingIcon from 'components/LoadingIcon/LoadingIcon';
-import Paginate from 'components/Paginate/Paginate';
-import getUrlSearchParams from 'lib/getUrlSearchParams';
-import { urlPunkApiBeers } from 'lib/constants';
+import BeerList from '../../components/BeerList/BeerList';
+import BeerFilter from '../../components/BeerFilter/BeerFilter';
+import LoadingIcon from '../../components/LoadingIcon/LoadingIcon';
+import Paginate from '../../components/Paginate/Paginate';
+import getUrlSearchParams from '../../lib/getUrlSearchParams';
+import { urlPunkApiBeers } from '../../lib/constants';
 class HomePage extends React.Component {
 
     static scrollToBeer() {
@@ -143,8 +143,8 @@ class HomePage extends React.Component {
      * @param {window.history.location} currentPage 
      * @param {object} action
      */
-    listenHistory = async (locaton, action) => {
-        let qsPage = getUrlSearchParams(location, 'page');
+    listenHistory = async (localLocaton, action) => {
+        let qsPage = getUrlSearchParams(localLocaton, 'page');
         // If we go back to the first page (/beers without param)
         qsPage = qsPage === '' ? 1 : Number(qsPage);
         if (this.state.currentPage === qsPage) return;
